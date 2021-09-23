@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&display=swap');
+
+:root{
+    --primary-color: #34D399;
+    --gray-color: #9CA3AF;
+    --off-white: #D1D5DB;
+}
+
+body, html{
+    font-family: 'Raleway',sans-serif;
+    margin: 0;
+}
+
+.left-space{
+    margin: 1.5rem;
+}
+
+/*Container*/
+
+.container{
+    padding: 2rem 1rem;
+}
+
+.container-center{
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.container p{
+    text-align: center;
+}
+
+/*Links*/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 150px;
+    text-align: center;
+    padding: 0.5rem 2rem;
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 150px;
+    text-align: center;
+    padding: 0.5rem 2rem;
+}
+
+/*Lists*/
+
+.no-bullets{
+    list-style: none;
+    padding-inline-start: 5px;
+}
+
+.inline-list{
+    display: inline;
+    margin: 0rem 1rem;
+}
+
+.project-list{
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.project-left{
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: left;
+    margin: 3rem auto;
+}
+
+.project-left p{
+    text-align: left;
+}
+
+/*Nav*/
+
+.navigation{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    position: sticky;
+}
+
+.navigation .brand-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 0.8rem;
+}
+
+.navigation .nav-items{
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.navigation .nav-link{
+    color: #fff;
+}
+
+.navigation .nav-active{
+    font-weight: bold;
+}
+
+/*Header*/
+
+.header{
+    padding: 2rem;
+    padding-top: 3rem;
+}
+
+.header-image{
+    max-width: 80%;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.header .change-color{
+    color: var(--primary-color);
+}
+
+.header-text{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: var(--gray-color);
+}
+
+/*Section*/
+
+.section{
+    padding: 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+
+.off-white{
+    background-color: var(--off-white);
+}
+
+/*Footer*/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+.footer .links {
+    color: white;
+}
+
+.footer .fab{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 2rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
